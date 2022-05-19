@@ -1,0 +1,18 @@
+@mixin center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin small-head{
+  font-size:12px;
+  color:#9fa8b8;
+}
+@mixin menu-icon-size{
+  width:20px;
+  height:20px;
+}
+@mixin space-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

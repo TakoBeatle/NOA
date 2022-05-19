@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body .noa-menu-section {
+  max-width: 280px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.75);
+}
+body .noa-menu-section .noa-menu {
+  border-bottom: 1px solid #e9edf1;
+  border-right: 1px solid #e9edf1;
+  padding: 14px;
+}
+body .noa-menu-section .noa-menu .noa-logo {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .noa-menu-section .noa-menu .noa-logo .logo-img {
+  width: 30px;
+  height: 30px;
+}
+body .noa-menu-section .noa-menu .noa-logo .logo-img .noa-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body .noa-menu-section .noa-menu .noa-logo .logo-head {
+  font-weight: 500;
+  font-size: 30px;
+}
+body .noa-menu-section .menu-sec {
+  padding: 20px;
+}
+body .noa-menu-section .menu-sec .small-head {
+  font-size: 12px;
+  color: #9fa8b8;
+}
+body .noa-menu-section .menu-sec .dashboard-sec {
+  color: #8fbd56;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 16px 0;
+  gap: 6px;
+}
+body .noa-menu-section .menu-sec .dashboard-sec .menu-icon {
+  width: 20px;
+  height: 20px;
+}
+body .noa-menu-section .menu-sec .dashboard-sec .dashboard-head {
+  font-size: 16px;
+  font-weight: 400;
+}
+body .noa-menu-section .menu-sec .app-sec .small-head {
+  font-size: 12px;
+  color: #9fa8b8;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper {
+  padding: 16px 0;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .app-item-wrapp {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 18px 0;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .app-item-wrapp:hover .chevron-icon,
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .app-item-wrapp:hover .app-item {
+  color: #8fbd56;
+  transition: 0.1s;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .app-item-wrapp .app-item {
+  color: #5d5e60;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .app-item-wrapp .app-item .app-icon {
+  width: 20px;
+  height: 20px;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .app-item-wrapp .app-item .app-items-head {
+  font-size: 16px;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .new {
+  border-radius: 18px;
+  background: #e884b0;
+}
+body .noa-menu-section .menu-sec .app-sec .app-wrapper .new .new-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #fff;
+  padding: 4px 8px;
+}
+
+/*# sourceMappingURL=style.css.map */
