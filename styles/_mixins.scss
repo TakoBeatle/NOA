@@ -16,3 +16,13 @@
   justify-content: space-between;
   align-items: center;
 }
+//@mixin card-size{
+//  width:33%;
+//  background: #fff;
+//  border-radius: 6px;
+//}
+@mixin card-head{
+  padding:20px;
+  font-weight: 500;
+  font-size:16px;
+}
